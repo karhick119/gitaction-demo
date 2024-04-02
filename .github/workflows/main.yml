@@ -6,5 +6,5 @@ jobs:
   First-test:
     runs-on: ubuntu-latest
     steps:
-    -name: setting an error message
-     run: echo "::error::Missing semicolon"
+      - name: setting an error message
+        run: echo "::error::Missing semicolon"
